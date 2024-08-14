@@ -9,3 +9,14 @@ This Drupal module provides a form to search for DHL locations using the DHL API
 
    ```sh
    drush en dhl_location_finder
+
+
+## Usage
+
+Navigate to the form at /dhl-location-form on your Drupal site.
+Enter the required details:
+Country Code: e.g., DE (Germany)
+City: e.g., Dresden
+Postal Code: e.g., 01067
+Click the "Find Locations" button.
+The results will be displayed on the same page in YAML format.
