@@ -25,7 +25,7 @@ class DHLLocationFormTest extends BrowserTestBase {
         $this->drupalLogin($user);
 
         // Visit the form page.
-        $this->drupalGet('/dhl-location-finder');
+        $this->drupalGet('/dhl-location-form');
         $this->assertSession()->statusCodeEquals(200);
         $this->assertSession()->pageTextContains('Find Locations');
 
